@@ -64,7 +64,7 @@ span:hover{
  ;
 }
 
- p{
+.hero-container p{
  color: #fff; 
  font-size: 2em;
  font-weight:300;
@@ -73,7 +73,86 @@ text-transform: capitalize;
 font-style: italic;
 }
 
-
-
-
 /* hero section ends*/
+/*about section starts*/
+
+#about{
+  background-color: #999; 
+}
+
+#about img{
+  border-radius: 50%;
+  padding-left: 40px;
+
+}
+.about-container{
+  display: flex;
+  justify-content: center; 
+  padding-top: 48px;
+}
+#about h1{
+  color: crimson;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#about .me p{
+  padding:40px;
+  font-weight: 500;
+}
+/*about section ends*/
+/*projects section starts*/
+
+
+.projects-container{
+  background-color: rgb(156, 152, 152);
+  position: relative;
+  text-align: center;
+
+}
+
+.projects-container #projects-header h1{
+  color: crimson;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.projects-container #projects-header p{
+  color: #400235;
+}
+
+.projects .imgs{
+  padding-bottom: 45px;   
+}
+
+.projects .imgs p{
+  font-size: 35px;
+  color:#fff;
+  margin-left: 48px;
+}
+
+.projects .imgs img{
+  border: 2px solid rgb(65, 65, 65);
+  border-radius: 16px;
+  margin-left: 48px;
+  box-shadow: 5px 5px 12px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*projects section ends*/
